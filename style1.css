@@ -261,19 +261,3 @@ footer {
         margin-top: 10px;
     }
 }
-.destination-card .image-container {
-    width: 100%; /* Prendre toute la largeur du conteneur */
-    height: 250px; /* Hauteur fixe pour garder une bonne proportion */
-    overflow: hidden; /* Cache les parties de l'image qui dépassent */
-}
-
-.destination-card .image-container img {
-    width: 100%; /* Prendre toute la largeur du conteneur */
-    height: 100%; /* Prendre toute la hauteur du conteneur */
-    object-fit: cover; /* Couvre le conteneur sans distorsion, en coupant éventuellement l'image */
-    transition: transform 0.3s ease; /* Ajouter une transition pour un effet d'agrandissement au survol */
-}
-
-.destination-card .image-container:hover img {
-    transform: scale(1.1); /* Effet de zoom au survol */
-}
